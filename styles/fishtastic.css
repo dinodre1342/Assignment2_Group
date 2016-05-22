@@ -41,14 +41,6 @@ background-color: #A6A6A6;
 	text-decoration: none;
 	
 }
-.dropbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
 
 .dropdown {
     position: relative;
@@ -58,7 +50,7 @@ background-color: #A6A6A6;
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #FFFFFF;
+    background-color: #A7A7A7;
     min-width: 100px;	
     box-shadow: 0px 8px 16px 0px rgba(1,0,0,0);
 	padding: 0px 0px;
@@ -77,16 +69,19 @@ background-color: #A6A6A6;
 .dropdown:hover .dropdown-content {
     display: inline-block;
 }
-
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+.tableformat{
+	padding-top: 20px; 
+	padding-bottom: 20px; 
+	border-bottom-style: solid;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	alignment: center; 
 }
 #content{
 	width: 920px;
-	background-color:#FFFFFF ;
+	background-color: #FFFFFF;
 	min-height: 800px;
 	margin: 0 auto;
-	
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;	
 }
 
 #footer {
